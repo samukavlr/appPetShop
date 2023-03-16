@@ -12,69 +12,76 @@ export const styles = StyleSheet.create({
     textShadowColor: '#00000029',
     textShadowOffset: { width: 0, height: 10 },
     textShadowRadius: 6,
-    bottom:100,
+    
   },
   logo: {
     width: 232,
     height: 242,
-    bottom:70,
+    marginTop:21,
+    marginBottom:64,
+    
   },
   input: {
     width: 330,
-    height: 60,
+    height: 45,
     borderWidth: 1,
     borderColor: '#ffff',
     backgroundColor:'#ffff',
     borderRadius: 10,
     paddingHorizontal: 10,
-    marginBottom: 15,
-    fontSize: 25,
+    marginBottom: 20,
+    fontSize: 30,
+  },
+  esquciminhasenha: {
+    width: 330,
+    paddingHorizontal: 10,
+    marginBottom: 38,
+    fontSize: 7,
+    color: '#FF7700',
   },
   criarconta: {
     width: 330,
     height: 60,
     flexDirection:'row',
     paddingHorizontal: 10,
-    marginBottom: 15,
+    marginBottom: 32,
     justifyContent:'space-between'
   },
   textcriaraconta: {
     fontSize: 12,
-    color: '#10abd4',
-    
-    
+    color: '#10abd4', 
   },
   button: {
     width: 332,
-    height: 60,
+    height: 50,
     backgroundColor: '#ffff',
     borderRadius: 30,
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom:26,
     
   },
   buttonlogar: {
     color: '#0000',
     width: 332,
-    height: 60,
+    height: 50,
     backgroundColor: '#ffff',
     borderRadius: 30,
     flexDirection:'row',
-    
-    paddingHorizontal: 10,
+    paddingHorizontal: 15,
     alignItems:'center',
+    bottom:30,
   },
   icon: {
-    width: 50,
-    height: 50,
+    width: 30,
+    height: 30,
     alignItems:'center'
   },
 
   buttonText: {
     fontWeight: 'bold',
-    
     color: '#10abd4',
-    fontSize: 25,
+    fontSize: 23,
     paddingHorizontal: 30,
     
   },

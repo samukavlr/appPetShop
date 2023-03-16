@@ -29,9 +29,14 @@ export default function LoginScreen() {
         value={password}
         onChangeText={setPassword}
       />
-      <TouchableOpacity style={styles.button} >
-        <Text style={styles.buttonText}>Entrar</Text>
+      <TouchableOpacity>
+          <Text style={styles.esquciminhasenha}>ESQUECI MINHA SENHA </Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} >
+        <Text style={styles.buttonText}>ENTRAR</Text>
+      </TouchableOpacity>
+
       <View style={styles.criarconta}>
         <TouchableOpacity>
           <Text style={styles.textcriaraconta}>
