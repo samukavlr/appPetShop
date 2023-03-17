@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "myAppPetShop",
-    "slug": "myAppPetShop",
+    "slug": "apppetshop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "25134c38-96b4-4099-812f-14301c104e28"
+      }
+    },
+    "owner": "samukavlr"
   }
 }
