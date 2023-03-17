@@ -6,8 +6,8 @@ import Cadastrar from './src/pages/Cadastrar';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <LoginScreen/> */}
-      <Cadastrar></Cadastrar>
+      <LoginScreen/>
+      {/* <Cadastrar></Cadastrar> */}
       <StatusBar style="auto" />
     </View>
   );

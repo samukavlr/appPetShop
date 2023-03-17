@@ -1,13 +1,21 @@
 import React, { useState } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity} from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity,Alert} from 'react-native';
 import {styles} from './styles'
 import img from '../../../assets/Logo.png'
 import Icon from '../../../assets/imgIcongoogle.png'
 
+
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  function Alertfunc(){
+     Alert.alert('ATENÇÃO!!', 'Entrar sem Cadastro')
 
+   
+
+  }
+    
+ 
   const handleLogin = () => {
     // implementar lógica de autenticação
   }
@@ -33,7 +41,7 @@ export default function LoginScreen() {
           <Text style={styles.esquciminhasenha}>ESQUECI MINHA SENHA </Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} >
+      <TouchableOpacity onPress={Alertfunc} style={styles.button} >
         <Text style={styles.buttonText}>ENTRAR</Text>
       </TouchableOpacity>
 
